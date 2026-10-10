@@ -1,0 +1,15 @@
+{
+  "name": "cat-fur-browser-tests",
+  "private": true,
+  "scripts": {
+    "test": "node smoke.cjs && node maps.cjs && node dynamics.cjs && node smoothing.cjs",
+    "test:smoke": "node smoke.cjs",
+    "test:maps": "node maps.cjs",
+    "test:dynamics": "node dynamics.cjs",
+    "test:smoothing": "node smoothing.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1",
+    "pngjs": "7.0.0"
+  }
+}
